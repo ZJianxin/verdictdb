@@ -132,6 +132,7 @@ class VerdictContext:
             self._context = self._load_or_get_spark_context(
                                 self._gateway, self._jspark_session)
             self._dbtype = 'spark'
+            self.is_closed = False
         self.version = self._get_verdictdb_version()
 
     def close(self):
