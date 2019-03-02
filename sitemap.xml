@@ -2,102 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://docs.verdictdb.org/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/getting_started/quickstart/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.verdictdb.org/getting_started/quickstart_python/</loc>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/getting_started/install/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.verdictdb.org/getting_started/connection/</loc>
-     <lastmod>2018-10-02</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.verdictdb.org/getting_started/properties/</loc>
-     <lastmod>2018-10-02</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.verdictdb.org/getting_started/scrambling/</loc>
-     <lastmod>2018-10-02</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.verdictdb.org/getting_started/querying/</loc>
-     <lastmod>2018-10-02</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.verdictdb.org/getting_started/streaming/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <loc>https://docs.verdictdb.org/getting_started/whatsmore/</loc>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/how_it_works/basics/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/how_it_works/architecture/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/how_it_works/query_processing/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/tutorial/setup/mysql/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/tutorial/setup/spark/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/tutorial/tpch/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/tutorial/examples/mysql/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/tutorial/examples/spark/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.verdictdb.org/tutorial/advanced/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <loc>https://docs.verdictdb.org/tutorial/examples/pyverdict/</loc>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.verdictdb.org/reference/scrambling_syntax/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <loc>https://docs.verdictdb.org/reference/connection/</loc>
+     <lastmod>2019-03-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.verdictdb.org/reference/properties/</loc>
+     <lastmod>2019-03-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.verdictdb.org/reference/scrambling/</loc>
+     <lastmod>2019-03-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.verdictdb.org/reference/append_scrambling/</loc>
+     <lastmod>2019-03-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.verdictdb.org/reference/drop_scrambling/</loc>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/reference/query_syntax/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.verdictdb.org/reference/streaming/</loc>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.verdictdb.org/reference/javadoc/</loc>
-     <lastmod>2018-10-02</lastmod>
+     <lastmod>2019-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

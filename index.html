@@ -2,7 +2,7 @@
 
 
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
   <head>
     
@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="images/verdictdb-favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
     
     
       
@@ -42,9 +42,9 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/application.451f80e5.css">
+      <link rel="stylesheet" href="assets/stylesheets/application.982221ab.css">
       
-        <link rel="stylesheet" href="assets/stylesheets/application-palette.22915126.css">
+        <link rel="stylesheet" href="assets/stylesheets/application-palette.224b79ff.css">
       
       
         
@@ -53,7 +53,7 @@
       
     
     
-      <script src="assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="assets/javascripts/modernizr.1f0bcf2b.js"></script>
     
     
       
@@ -64,7 +64,11 @@
     
     <link rel="stylesheet" href="assets/fonts/material-icons.css">
     
+    
       <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    
+      
     
     
   </head>
@@ -123,22 +127,19 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            
-              <span class="md-header-nav__topic">
-                VerdictDB Documentation
-              </span>
-              <span class="md-header-nav__topic">
-                Home
-              </span>
-            
+            <span class="md-header-nav__topic">
+              VerdictDB Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              Home
+            </span>
           
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
@@ -161,7 +162,6 @@
     </div>
   </div>
 </div>
-          
         
       </div>
       
@@ -172,20 +172,18 @@
 
   
 
-
-  <a href="https://github.com/mozafari/verdictdb/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      mozafari/verdictdb
+<a href="https://github.com/mozafari/verdictdb/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    mozafari/verdictdb
+  </div>
+</a>
           </div>
         </div>
       
@@ -262,19 +260,13 @@
         
   
   
-    
-    
-  
-  
     <li class="md-tabs__item">
       
-        <a href="reference/scrambling_syntax/" title="Reference" class="md-tabs__link">
+        <a href="reference/connection/" title="Reference" class="md-tabs__link">
           Reference
         </a>
       
     </li>
-  
-
   
 
       
@@ -305,20 +297,18 @@
 
   
 
-
-  <a href="https://github.com/mozafari/verdictdb/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      mozafari/verdictdb
+<a href="https://github.com/mozafari/verdictdb/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    mozafari/verdictdb
+  </div>
+</a>
     </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -358,6 +348,13 @@
         <li class="md-nav__item">
   <a href="#introduction" title="Introduction" class="md-nav__link">
     Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-overview" title="Workflow Overview" class="md-nav__link">
+    Workflow Overview
   </a>
   
 </li>
@@ -412,8 +409,20 @@
 
 
   <li class="md-nav__item">
-    <a href="getting_started/quickstart/" title="Quickstart" class="md-nav__link">
-      Quickstart
+    <a href="getting_started/quickstart/" title="Quickstart (Java)" class="md-nav__link">
+      Quickstart (Java)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="getting_started/quickstart_python/" title="Quickstart (Python)" class="md-nav__link">
+      Quickstart (Python)
     </a>
   </li>
 
@@ -436,56 +445,8 @@
 
 
   <li class="md-nav__item">
-    <a href="getting_started/connection/" title="Connecting to Data Sources" class="md-nav__link">
-      Connecting to Data Sources
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="getting_started/properties/" title="VerdictDB JDBC Properties" class="md-nav__link">
-      VerdictDB JDBC Properties
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="getting_started/scrambling/" title="Creating Scrambles" class="md-nav__link">
-      Creating Scrambles
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="getting_started/querying/" title="Simple Querying" class="md-nav__link">
-      Simple Querying
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="getting_started/streaming/" title="Stream Querying" class="md-nav__link">
-      Stream Querying
+    <a href="getting_started/whatsmore/" title="What's More" class="md-nav__link">
+      What's More
     </a>
   </li>
 
@@ -677,20 +638,20 @@
   </li>
 
         
-      </ul>
-    </nav>
-  </li>
-
-        
           
           
           
 
 
   <li class="md-nav__item">
-    <a href="tutorial/advanced/" title="ML-based Analytics" class="md-nav__link">
-      ML-based Analytics
+    <a href="tutorial/examples/pyverdict/" title="Pyverdict" class="md-nav__link">
+      Pyverdict
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -723,28 +684,9 @@
           
 
 
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1">
-    
-    <label class="md-nav__link" for="nav-5-1">
-      Query Syntax
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-5-1">
-        Query Syntax
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
   <li class="md-nav__item">
-    <a href="reference/scrambling_syntax/" title="Scrambling" class="md-nav__link">
-      Scrambling
+    <a href="reference/connection/" title="Connecting to Databases" class="md-nav__link">
+      Connecting to Databases
     </a>
   </li>
 
@@ -755,14 +697,69 @@
 
 
   <li class="md-nav__item">
-    <a href="reference/query_syntax/" title="Select Query" class="md-nav__link">
-      Select Query
+    <a href="reference/properties/" title="VerdictDB JDBC Properties" class="md-nav__link">
+      VerdictDB JDBC Properties
     </a>
   </li>
 
         
-      </ul>
-    </nav>
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/scrambling/" title="Creating/Viewing Scrambles" class="md-nav__link">
+      Creating/Viewing Scrambles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/append_scrambling/" title="Appending Scrambles" class="md-nav__link">
+      Appending Scrambles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/drop_scrambling/" title="Dropping Scrambles" class="md-nav__link">
+      Dropping Scrambles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/query_syntax/" title="Select-Query Syntax" class="md-nav__link">
+      Select-Query Syntax
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/streaming/" title="Stream Querying" class="md-nav__link">
+      Stream Querying
+    </a>
   </li>
 
         
@@ -811,6 +808,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#workflow-overview" title="Workflow Overview" class="md-nav__link">
+    Workflow Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#contents" title="Contents" class="md-nav__link">
     Contents
   </a>
@@ -846,15 +850,15 @@
                 <h1 id="verdictdb-documentation">VerdictDB Documentation<a class="headerlink" href="#verdictdb-documentation" title="Permanent link">&para;</a></h1>
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
 <p>VerdictDB is a thin, platform-independent, interactive analytics library that works on top of your existing (or backend) database system (e.g., MySQL, PostgreSQL, Redshift, etc.). For platform-independence, VerdictDB makes all communications with the backend database in SQL. For interactive querying, VerdictDB intelligently <strong>infers</strong> the query answers based on the results processed on a part of the original data. Those inferred answers are highly accurate estimators of the exact answers. Furthermore, <em>even when only exact answers are needed</em>, VerdictDB can also be useful with its <strong>streaming sql engine</strong>. The streaming sql engine provides interactive-speed feedbacks in the process of computing exact answers. See <a href="/how_it_works/basics">this page</a> if you want to know more about VerdictDB's internal mechanism.</p>
+<h2 id="workflow-overview">Workflow Overview<a class="headerlink" href="#workflow-overview" title="Permanent link">&para;</a></h2>
+<p>First, users must create a <em>scramble</em> for their large table. The scramble is just some table in a special format. Once the scramble is created, VerdictDB performs its unique operations to quickly process aggregate queries involving the large table.</p>
 <h2 id="contents">Contents<a class="headerlink" href="#contents" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Getting Started<ul>
-<li><a href="/getting_started/quickstart">Quickstart</a></li>
+<li><a href="/getting_started/quickstart">Quickstart (Java)</a></li>
+<li><a href="getting_started/quickstart_python">Quickstart (Python)</a></li>
 <li><a href="/getting_started/install">Install / Download</a></li>
-<li><a href="/getting_started/connection">Connecting to Databases</a></li>
-<li><a href="/getting_started/scrambling">Scrambling</a></li>
-<li><a href="/getting_started/querying">Traditional Querying</a></li>
-<li><a href="/getting_started/streaming">Stream Querying</a></li>
+<li><a href="/getting_started/whatsmore">What's More</a></li>
 </ul>
 </li>
 <li>How VerdictDB works<ul>
@@ -864,14 +868,28 @@
 </ul>
 </li>
 <li>Tutorial<ul>
-<li><a href="/tutorial/mysql">Setting up MySQL database</a></li>
+<li>Setting up databases<ul>
+<li><a href="/tutorial/setup/mysql">MySQL</a></li>
+<li><a href="/tutorial/setup/spark">Apache Spark</a></li>
+</ul>
+</li>
 <li><a href="/tutorial/tpch">Setting up TPC-H data</a></li>
-<li><a href="/tutorial/example">An example Java application</a></li>
-<li><a href="/tutorial/advanced">ML-based Analytics</a></li>
+<li>Example Applications<ul>
+<li><a href="/tutorial/example/mysql">MySQL</a></li>
+<li><a href="/tutorial/example/spark">Apache Spark</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li>Reference<ul>
-<li><a href="/reference/query_syntax">Query Syntax</a></li>
+<li><a href="/reference/connection">Connecting to Data Sources</a></li>
+<li><a href="/reference/properties">VerdictDB JDBC Properties</a></li>
+<li><a href="/reference/scrambling">Creating/Viewing Scrambles</a></li>
+<li><a href="/reference/append_scrambling">Appending Scrambles</a></li>
+<li><a href="/reference/drop_scrambling">Dropping Scrambles</a></li>
+<li><a href="/reference/query_syntax">Select-Query Syntax</a></li>
+<li><a href="/reference/streaming">Stream Querying</a></li>
+<li><a href="/reference/javadoc">Javadoc</a></li>
 </ul>
 </li>
 </ol>
@@ -898,13 +916,13 @@
       <nav class="md-footer-nav__inner md-grid">
         
         
-          <a href="getting_started/quickstart/" title="Quickstart" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="getting_started/quickstart/" title="Quickstart (Java)" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Quickstart
+                Quickstart (Java)
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -930,22 +948,17 @@
           Material for MkDocs</a>
       </div>
       
-        
-      
     </div>
   </div>
 </footer>
       
     </div>
     
-      <script src="assets/javascripts/application.583bbe55.js"></script>
+      <script src="assets/javascripts/application.b806dc00.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
       
         <script src="javascripts/extra.js"></script>
-      
-    
-    
       
     
   </body>

@@ -2,7 +2,7 @@
 
 
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
   <head>
     
@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="https://docs.verdictdb.org/getting_started/querying/">
+        <link rel="canonical" href="https://docs.verdictdb.org/reference/drop_scrambling/">
       
       
       
@@ -34,17 +34,17 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../images/verdictdb-favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
     
     
       
-        <title>Simple Querying - VerdictDB Documentation</title>
+        <title>Dropping Scrambles - VerdictDB Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.451f80e5.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.982221ab.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css">
       
       
         
@@ -53,7 +53,7 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
     
     
       
@@ -64,7 +64,11 @@
     
     <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
+    
       <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
     
     
   </head>
@@ -102,7 +106,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../../#simple-querying" tabindex="1" class="md-skip">
+      <a href="#dropping-scrambles" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -123,22 +127,19 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            
-              <span class="md-header-nav__topic">
-                VerdictDB Documentation
-              </span>
-              <span class="md-header-nav__topic">
-                Simple Querying
-              </span>
-            
+            <span class="md-header-nav__topic">
+              VerdictDB Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              Dropping Scrambles
+            </span>
           
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
@@ -161,7 +162,6 @@
     </div>
   </div>
 </div>
-          
         
       </div>
       
@@ -172,20 +172,18 @@
 
   
 
-
-  <a href="https://github.com/mozafari/verdictdb/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      mozafari/verdictdb
+<a href="https://github.com/mozafari/verdictdb/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    mozafari/verdictdb
+  </div>
+</a>
           </div>
         </div>
       
@@ -221,7 +219,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../quickstart/" title="Getting Started" class="md-tabs__link md-tabs__link--active">
+        <a href="../../getting_started/quickstart/" title="Getting Started" class="md-tabs__link">
           Getting Started
         </a>
       
@@ -264,19 +262,13 @@
         
   
   
-    
-    
-  
-  
     <li class="md-tabs__item">
       
-        <a href="../../reference/scrambling_syntax/" title="Reference" class="md-tabs__link">
+        <a href="../connection/" title="Reference" class="md-tabs__link md-tabs__link--active">
           Reference
         </a>
       
     </li>
-  
-
   
 
       
@@ -307,20 +299,18 @@
 
   
 
-
-  <a href="https://github.com/mozafari/verdictdb/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      mozafari/verdictdb
+<a href="https://github.com/mozafari/verdictdb/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    mozafari/verdictdb
+  </div>
+</a>
     </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -341,12 +331,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
       Getting Started
@@ -364,8 +352,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../quickstart/" title="Quickstart" class="md-nav__link">
-      Quickstart
+    <a href="../../getting_started/quickstart/" title="Quickstart (Java)" class="md-nav__link">
+      Quickstart (Java)
     </a>
   </li>
 
@@ -376,7 +364,19 @@
 
 
   <li class="md-nav__item">
-    <a href="../install/" title="Download / Install" class="md-nav__link">
+    <a href="../../getting_started/quickstart_python/" title="Quickstart (Python)" class="md-nav__link">
+      Quickstart (Python)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../getting_started/install/" title="Download / Install" class="md-nav__link">
       Download / Install
     </a>
   </li>
@@ -388,101 +388,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../connection/" title="Connecting to Data Sources" class="md-nav__link">
-      Connecting to Data Sources
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../properties/" title="VerdictDB JDBC Properties" class="md-nav__link">
-      VerdictDB JDBC Properties
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../scrambling/" title="Creating Scrambles" class="md-nav__link">
-      Creating Scrambles
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Simple Querying
-      </label>
-    
-    <a href="./" title="Simple Querying" class="md-nav__link md-nav__link--active">
-      Simple Querying
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#verdictdbs-jdbc-driver" title="VerdictDB's JDBC Driver" class="md-nav__link">
-    VerdictDB's JDBC Driver
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#verdictcontext" title="VerdictContext" class="md-nav__link">
-    VerdictContext
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../streaming/" title="Stream Querying" class="md-nav__link">
-      Stream Querying
+    <a href="../../getting_started/whatsmore/" title="What's More" class="md-nav__link">
+      What's More
     </a>
   </li>
 
@@ -674,19 +581,14 @@
   </li>
 
         
-      </ul>
-    </nav>
-  </li>
-
-        
           
           
           
 
 
   <li class="md-nav__item">
-    <a href="../../tutorial/advanced/" title="ML-based Analytics" class="md-nav__link">
-      ML-based Analytics
+    <a href="../../tutorial/examples/pyverdict/" title="Pyverdict" class="md-nav__link">
+      Pyverdict
     </a>
   </li>
 
@@ -695,15 +597,22 @@
     </nav>
   </li>
 
+        
+      </ul>
+    </nav>
+  </li>
+
     
       
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
     
     <label class="md-nav__link" for="nav-5">
       Reference
@@ -720,19 +629,105 @@
           
 
 
-  <li class="md-nav__item md-nav__item--nested">
+  <li class="md-nav__item">
+    <a href="../connection/" title="Connecting to Databases" class="md-nav__link">
+      Connecting to Databases
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../properties/" title="VerdictDB JDBC Properties" class="md-nav__link">
+      VerdictDB JDBC Properties
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../scrambling/" title="Creating/Viewing Scrambles" class="md-nav__link">
+      Creating/Viewing Scrambles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../append_scrambling/" title="Appending Scrambles" class="md-nav__link">
+      Appending Scrambles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1">
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-    <label class="md-nav__link" for="nav-5-1">
-      Query Syntax
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-5-1">
-        Query Syntax
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Dropping Scrambles
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
+    
+    <a href="./" title="Dropping Scrambles" class="md-nav__link md-nav__link--active">
+      Dropping Scrambles
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#syntax-for-dropping-a-specific-scramble" title="Syntax for Dropping a Specific Scramble" class="md-nav__link">
+    Syntax for Dropping a Specific Scramble
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syntax-for-dropping-all-scrambles-for-a-table" title="Syntax for Dropping All Scrambles for a Table" class="md-nav__link">
+    Syntax for Dropping All Scrambles for a Table
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
         
           
           
@@ -740,8 +735,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../reference/scrambling_syntax/" title="Scrambling" class="md-nav__link">
-      Scrambling
+    <a href="../query_syntax/" title="Select-Query Syntax" class="md-nav__link">
+      Select-Query Syntax
     </a>
   </li>
 
@@ -752,14 +747,9 @@
 
 
   <li class="md-nav__item">
-    <a href="../../reference/query_syntax/" title="Select Query" class="md-nav__link">
-      Select Query
+    <a href="../streaming/" title="Stream Querying" class="md-nav__link">
+      Stream Querying
     </a>
-  </li>
-
-        
-      </ul>
-    </nav>
   </li>
 
         
@@ -769,7 +759,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../reference/javadoc/" title="Javadoc" class="md-nav__link">
+    <a href="../javadoc/" title="Javadoc" class="md-nav__link">
       Javadoc
     </a>
   </li>
@@ -801,15 +791,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#verdictdbs-jdbc-driver" title="VerdictDB's JDBC Driver" class="md-nav__link">
-    VerdictDB's JDBC Driver
+  <a href="#syntax-for-dropping-a-specific-scramble" title="Syntax for Dropping a Specific Scramble" class="md-nav__link">
+    Syntax for Dropping a Specific Scramble
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#verdictcontext" title="VerdictContext" class="md-nav__link">
-    VerdictContext
+  <a href="#syntax-for-dropping-all-scrambles-for-a-table" title="Syntax for Dropping All Scrambles for a Table" class="md-nav__link">
+    Syntax for Dropping All Scrambles for a Table
   </a>
   
 </li>
@@ -830,40 +820,21 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/mozafari/verdictdb/edit/master/docs/getting_started/querying.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/mozafari/verdictdb/edit/master/docs/reference/drop_scrambling.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="simple-querying">Simple Querying<a class="headerlink" href="#simple-querying" title="Permanent link">&para;</a></h1>
-<p>VerdictDB's basic query interface returns a single <em>(approximate)</em> result set (i.e., a table) given a query. This is the same interface as what most databases offer; thus, this interface is convenient to use VerdictDB as a drop-in-replacement of other databases.</p>
-<p>There are two approaches to VerdictDB's basic query interface:</p>
-<ol>
-<li>VerdicDB JDBC Driver's regular <code>executeQuery()</code> method</li>
-<li>VerdictContext's <code>sql()</code> method</li>
-</ol>
-<p>We describe them in more detail below.</p>
-<h2 id="verdictdbs-jdbc-driver">VerdictDB's JDBC Driver<a class="headerlink" href="#verdictdbs-jdbc-driver" title="Permanent link">&para;</a></h2>
-<p>Suppose we aim to query the average price of the items in the <code>sales</code> table, i.e., <code>select avg(price) from sales</code>. Then, issuing the query in a traditional way to the VerdictDB's JDBC interface returns an approximate answer by default.</p>
-<p>The below code shows an example.</p>
-<div class="codehilite"><pre><span></span><span class="n">Connection</span> <span class="n">verdict</span> <span class="o">=</span> <span class="n">DriverManager</span><span class="o">.</span><span class="na">getConnection</span><span class="o">(</span><span class="s">&quot;jdbc:verdict:mysql://localhost&quot;</span><span class="o">,</span> <span class="s">&quot;root&quot;</span><span class="o">,</span> <span class="s">&quot;rootpassword&quot;</span><span class="o">);</span>
-<span class="n">Statement</span> <span class="n">stmt</span> <span class="o">=</span> <span class="n">verdict</span><span class="o">.</span><span class="na">createStatement</span><span class="o">();</span>
-<span class="n">ResultSet</span> <span class="n">rs</span> <span class="o">=</span> <span class="n">stmt</span><span class="o">.</span><span class="na">executeQuery</span><span class="o">(</span><span class="s">&quot;select avg(price) from sales&quot;</span><span class="o">);</span>
+                <h1 id="dropping-scrambles">Dropping Scrambles<a class="headerlink" href="#dropping-scrambles" title="Permanent link">&para;</a></h1>
+<p>You can either drop 1) a specific scramble; or 2) all scrambles that belong to a single table.</p>
+<h2 id="syntax-for-dropping-a-specific-scramble">Syntax for Dropping a Specific Scramble<a class="headerlink" href="#syntax-for-dropping-a-specific-scramble" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><span class="k">DROP</span> <span class="n">SCRAMBLE</span> <span class="n">scrambleSchema</span><span class="p">.</span><span class="n">scrambleTable</span> <span class="k">ON</span> <span class="n">originalSchema</span><span class="p">.</span><span class="n">originalTable</span><span class="p">;</span>
 </pre></div>
 
-<div class="admonition note">
-<p class="admonition-title">Note: Direct querying to the backend</p>
-<p>You can always send a query directly to the backend database by preceding a query with the <code>bypass</code> keyword, e.g., <code>bypass select avg(price) from sales</code>. Then, VerdictDB sends the query to the backend database without any query rewriting or extra processing. This approach can be used for all other queries, such as <code>create schema ...</code>, <code>set key=value</code>, etc.</p>
-</div>
-<h2 id="verdictcontext">VerdictContext<a class="headerlink" href="#verdictcontext" title="Permanent link">&para;</a></h2>
-<p>Issuing a query using <code>VerdictContext.sql()</code> method returns a single approximate query result. See the example below.</p>
-<div class="codehilite"><pre><span></span><span class="n">String</span> <span class="n">connectionString</span> <span class="o">=</span> <span class="s">&quot;jdbc:mysql://localhost?user=root&amp;password=rootpassword&quot;</span><span class="o">;</span>
-<span class="n">VerdictContext</span> <span class="n">verdict</span> <span class="o">=</span> <span class="n">VerdictContext</span><span class="o">.</span><span class="na">fromJdbcConnectionString</span><span class="o">(</span><span class="n">connectionString</span><span class="o">);</span>
-<span class="n">VerdictSingleResult</span> <span class="n">rs</span> <span class="o">=</span> <span class="n">verdict</span><span class="o">.</span><span class="na">sql</span><span class="o">(</span><span class="s">&quot;select avg(price) from sales&quot;</span><span class="o">);</span>
+<p>This will remove the <code>scrambleSchema.scrambleTable</code> scramble built for <code>originalSchema.originalTable</code> and its metadata in VerdictDB.</p>
+<h2 id="syntax-for-dropping-all-scrambles-for-a-table">Syntax for Dropping All Scrambles for a Table<a class="headerlink" href="#syntax-for-dropping-all-scrambles-for-a-table" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><span class="k">DROP</span> <span class="k">ALL</span> <span class="n">SCRAMBLE</span> <span class="n">originalSchema</span><span class="p">.</span><span class="n">originalTable</span><span class="p">;</span>
 </pre></div>
 
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>When creating an instance of VerdictContext, the JDBC url must not include the "verdict" keyword.</p>
-</div>
+<p>This will remove all scrambles built for <code>originalSchema.originalTable</code> and their metadata in VerdictDB.</p>
                 
                   
                 
@@ -884,7 +855,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../scrambling/" title="Creating Scrambles" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../append_scrambling/" title="Appending Scrambles" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -893,19 +864,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Creating Scrambles
+                Appending Scrambles
               </span>
             </div>
           </a>
         
         
-          <a href="../streaming/" title="Stream Querying" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../query_syntax/" title="Select-Query Syntax" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Stream Querying
+                Select-Query Syntax
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -931,22 +902,17 @@
           Material for MkDocs</a>
       </div>
       
-        
-      
     </div>
   </div>
 </footer>
       
     </div>
     
-      <script src="../../assets/javascripts/application.583bbe55.js"></script>
+      <script src="../../assets/javascripts/application.b806dc00.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
         <script src="../../javascripts/extra.js"></script>
-      
-    
-    
       
     
   </body>
