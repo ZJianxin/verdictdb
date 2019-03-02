@@ -24,6 +24,7 @@ nav:
     - Example VerdictDB App:
       - MySQL: tutorial/examples/mysql.md
       - Apache Spark: tutorial/examples/spark.md
+      - Pyverdict: tutorial/examples/pyverdict.md
     # - ML-based Analytics: tutorial/advanced.md
   - Reference:
     - Connecting to Databases: reference/connection.md
